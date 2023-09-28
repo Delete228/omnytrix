@@ -5,18 +5,23 @@
 <!--   Version : 2                             -->
 <!--   Program : TopoR Lite 7.0.18699          -->
 <!--   Date    : Wednesday, September 27, 2023 -->
-<!--   Time    : 19:20                         -->
+<!--   Time    : 20:50                         -->
 <!--*******************************************-->
 
 <Project>
    <Version current="2"/>
    <GUID>{F778CD9E-E4C2-431A-9FFF-474DCEBEE222}</GUID>
    <Documents>
-      <Section name="PCB" isExpanded="false">
-         <File path=".\omnytrix_pcb.fsx" isopened="1" dateChange="2023-09-27 18:59:49"/>
+      <Section name="PCB" isExpanded="true">
+         <File path=".\omnytrix_pcb.fsx" isopened="0" dateChange="2023-09-27 19:20:34"/>
       </Section>
-      <Section name="AutoRouting" isExpanded="false">
+      <Section name="AutoRouting" isExpanded="true">
          <File path=".\autoroute_230927190133\omnytrix_pcb_534-7s.fsb" isopened="0" dateChange="2023-09-27 19:15:48"/>
       </Section>
    </Documents>
+   <Import>
+      <Specctra>
+         <Path name="Z:\home\delete\projects\calc\pcb\dev_board_1\topor\dev_board_1_one_side.dsn"/>
+      </Specctra>
+   </Import>
 </Project>
